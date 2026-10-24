@@ -11,6 +11,7 @@ const amber: Palette = { from: '#1c1003', via: '#6b3c06', to: '#0a0806', accent:
 const ocean: Palette = { from: '#04121f', via: '#0f4c6e', to: '#05080d', accent: '#4cc9ff' };
 const violet: Palette = { from: '#120822', via: '#3d1a6e', to: '#07060c', accent: '#b98bff' };
 const jade: Palette = { from: '#03150f', via: '#0d5a40', to: '#050a08', accent: '#46e3a8' };
+const B = import.meta.env.BASE_URL;
 
 export const profile = {
   fullName: 'Muntazir Naqvi',
@@ -31,10 +32,10 @@ export const profile = {
     linkedin: 'https://www.linkedin.com/in/muntazir-naqvi-391796197',
     github: 'https://github.com/muntazirnaqvi786',
   },
-  resumePdf: '/assets/Muntazir_Naqvi_Resume.pdf',
+  resumePdf: `${B}assets/Muntazir_Resume.pdf`,
   portrait: {
-    src: '/assets/portrait-720.webp',
-    srcSet: '/assets/portrait-420.webp 420w, /assets/portrait-720.webp 720w, /assets/portrait-1100.webp 1100w',
+    src: `${B}assets/portrait-720.webp`,
+    srcSet: `${B}assets/portrait-420.webp 420w, ${B}assets/portrait-720.webp 720w, ${B}assets/portrait-1100.webp 1100w`,
     alt: 'Portrait of Muntazir Naqvi',
   },
   interests: ['DevOps', 'Cloud Infrastructure', 'Automation'],
