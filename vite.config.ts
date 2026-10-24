@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: '/muntazir-portfolio/',
   build: {
     target: 'es2020',
     rollupOptions: {
