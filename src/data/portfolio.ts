@@ -35,7 +35,7 @@ export const profile = {
   resumePdf: `${B}assets/Muntazir_Resume.pdf`,
   portrait: {
     src: `${B}assets/portrait-720.webp`,
-    srcSet: `${B}assets/portrait-420.webp 420w, ${B}assets/portrait-720.webp 720w, ${B}assets/portrait-1100.webp 1100w`,
+    srcSet: `${B}assets/portrait-720.webp 720w`,
     alt: 'Portrait of Muntazir Naqvi',
   },
   interests: ['DevOps', 'Cloud Infrastructure', 'Automation'],
